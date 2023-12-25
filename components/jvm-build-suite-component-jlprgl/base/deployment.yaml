@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-jlprgl
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-ehyd-tenant/jvm-build-suite-application-yvtp/jvm-build-suite-component-jlprgl@sha256:be6c7cb254a32a131b1b09bdce894c425636a27d4a4df38bc7714ed2ae16d43b
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
